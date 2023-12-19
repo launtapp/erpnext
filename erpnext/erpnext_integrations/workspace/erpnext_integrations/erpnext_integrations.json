@@ -223,18 +223,18 @@
    "type": "Link"
   }
  ],
- "modified": "2023-08-29 15:48:59.010704",
+ "modified": "2023-12-20 01:21:13.802558",
  "modified_by": "Administrator",
  "module": "ERPNext Integrations",
  "name": "ERPNext Integrations",
  "number_cards": [],
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "Developer",
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [],
- "sequence_id": 21.0,
+ "sequence_id": 31.0,
  "shortcuts": [
   {
    "color": "Grey",
