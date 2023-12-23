@@ -7,13 +7,14 @@
  "include_name_field": 0,
  "is_standard": 1,
  "list_name": "List",
- "modified": "2023-05-29 13:09:49.920796",
+ "modified": "2023-12-21 14:34:20.253627",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Warehouse",
  "new_document_form": 0,
  "owner": "Administrator",
  "reference_doctype": "Warehouse",
+ "report_name": "",
  "save_on_complete": 1,
  "steps": [
   {

@@ -38,6 +38,10 @@ frappe.ui.form.on("Employee", {
 				}
 			};
 		});
+		// const tour_name = 'Create Employee';
+  		// frm.tour
+    	// .init({ tour_name })
+    	// .then(() => frm.tour.start());
 	},
 	prefered_contact_email: function(frm) {
 		frm.events.update_contact(frm);
@@ -95,30 +99,55 @@ cur_frm.cscript = new erpnext.setup.EmployeeController({
 });
 
 
-frappe.tour['Employee'] = [
-	{
-		fieldname: "first_name",
-		title: "First Name",
-		description: __("Enter First and Last name of Employee, based on Which Full Name will be updated. IN transactions, it will be Full Name which will be fetched.")
-	},
-	{
-		fieldname: "company",
-		title: "Company",
-		description: __("Select a Company this Employee belongs to.")
-	},
-	{
-		fieldname: "date_of_birth",
-		title: "Date of Birth",
-		description: __("Select Date of Birth. This will validate Employees age and prevent hiring of under-age staff.")
-	},
-	{
-		fieldname: "date_of_joining",
-		title: "Date of Joining",
-		description: __("Select Date of joining. It will have impact on the first salary calculation, Leave allocation on pro-rata bases.")
-	},
-	{
-		fieldname: "reports_to",
-		title: "Reports To",
-		description: __("Here, you can select a senior of this Employee. Based on this, Organization Chart will be populated.")
-	},
-];
+// frappe.tour['Employee'] = [
+// 	{
+// 		fieldname: "first_name",
+// 		title: "ชื่อจริง",
+// 		description: __("ใส่ชื่อจริงของพนักงาน")
+// 	},
+// 	{
+// 		fieldname: "last_name",
+// 		title: "นามสกุล",
+// 		description: __("ใส่นามสกุลของพนักงาน")
+// 	},
+// 	{
+// 		fieldname: "nickname",
+// 		title: "ชื่อเล่น",
+// 		description: __("สามารถใส่ชื่อเล่นของพนักงานได้ (ไม่บังคับ)")
+// 	},
+// 	{
+// 		fieldname: "gender",
+// 		title: "เลือกเพศ",
+// 		description: __("เลือกเพศของพนักงาน")
+// 	},
+// 	{
+// 		fieldname: "date_of_birth",
+// 		title: "วันเกิด",
+// 		description: __("เลือกวันเกิดของพนักงาน")
+// 	},
+// 	{
+// 		fieldname: "date_of_joining",
+// 		title: "วันที่เข้าร่วมงาน",
+// 		description: __("เลือกวันที่พนักงานเริ่มทำงานวันแรก")
+// 	},
+// 	{
+// 		fieldname: "status",
+// 		title: "สถานะพนักงาน",
+// 		description: __("เลือกสถานะพนักงานหากเป็นการเพิ่มพนักงานใหม่ให้เปิดใช้งาน")
+// 	},
+// 	{
+// 		fieldname: "company_details_section",
+// 		title: "ข้อมูลตำแหน่งงานในบริษัท",
+// 		description: __("สามารถใส่รายละเอียดตำแหน่งงานของพนักงานเพิ่มเติมได้ในส่วนนี้")
+// 	},
+// 	{
+// 		fieldname: "holiday_list",
+// 		title: "วันหยุดพื้นฐาน",
+// 		description: __("กรุณาใส่วันหยุดพื้นฐานของพนักงาน หากยังไม่ได้ตั้งค่าวันหยุดกรุณาตั้งค่าก่อน")
+// 	},
+// 	{
+// 		fieldname: "salary_mode",
+// 		title: "วิธีการจ่ายเงินเดือน",
+// 		description: __("เลือกวิธีการจ่ายเงินเดือน")
+// 	}
+// ];

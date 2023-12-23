@@ -165,32 +165,33 @@ def add_company_to_session_defaults():
 def add_standard_navbar_items():
 	navbar_settings = frappe.get_single("Navbar Settings")
 
-	erpnext_navbar_items = [
-		{
-			"item_label": "Documentation",
-			"item_type": "Route",
-			"route": "https://docs.erpnext.com/",
-			"is_standard": 1,
-		},
-		{
-			"item_label": "User Forum",
-			"item_type": "Route",
-			"route": "https://discuss.frappe.io",
-			"is_standard": 1,
-		},
-		{
-			"item_label": "Frappe School",
-			"item_type": "Route",
-			"route": "https://frappe.school?utm_source=in_app",
-			"is_standard": 1,
-		},
-		{
-			"item_label": "Report an Issue",
-			"item_type": "Route",
-			"route": "https://github.com/frappe/erpnext/issues",
-			"is_standard": 1,
-		},
-	]
+	erpnext_navbar_items = []
+	# erpnext_navbar_items = [
+	# 	{
+	# 		"item_label": "Documentation",
+	# 		"item_type": "Route",
+	# 		"route": "https://docs.erpnext.com/",
+	# 		"is_standard": 1,
+	# 	},
+	# 	{
+	# 		"item_label": "User Forum",
+	# 		"item_type": "Route",
+	# 		"route": "https://discuss.frappe.io",
+	# 		"is_standard": 1,
+	# 	},
+	# 	{
+	# 		"item_label": "Frappe School",
+	# 		"item_type": "Route",
+	# 		"route": "https://frappe.school?utm_source=in_app",
+	# 		"is_standard": 1,
+	# 	},
+	# 	{
+	# 		"item_label": "Report an Issue",
+	# 		"item_type": "Route",
+	# 		"route": "https://github.com/frappe/erpnext/issues",
+	# 		"is_standard": 1,
+	# 	},
+	# ]
 
 	current_navbar_items = navbar_settings.help_dropdown
 	navbar_settings.set("help_dropdown", [])
