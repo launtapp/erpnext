@@ -1,12 +1,12 @@
 app_name = "erpnext"
-app_title = "ERPNext"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+app_title = "launtERP"
+app_publisher = "Jarupak Srisuchat"
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
-app_email = "info@erpnext.com"
+app_email = "info@launt.app"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
+source_link = "https://github.com/launtapp/erpnext"
 app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
 
 
